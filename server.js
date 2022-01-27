@@ -1,6 +1,5 @@
 const express = require('express')
 const cors = require('cors')
-const expressSession = require('express-session')
 const path = require('path')
 const app = express()
 const http = require('http').createServer(app)
